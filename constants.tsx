@@ -120,13 +120,13 @@ export const PROFILE = {
 export const PROJECTS: Record<'fr' | 'en', Project[]> = {
   fr: [
     { id: '1', title: 'Nice-to-meet-u', description: 'Site d\'échange linguistique pour pratiquer avec des natifs.', tags: ['React', 'WebRTC', 'Next.js'], imageUrl: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1000', link: 'https://www.nice-to-meet-u.com/', category: 'Web' },
-    { id: '2', title: 'Rideshare', description: 'Application mobile de partage de trajet pour voyageurs en Asie.', tags: ['Flutter', 'Mobile', 'Travel'], imageUrl: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=1000', link: 'https://www.my-rideshare.com/', category: 'Mobile' },
+    { id: '2', title: 'Rideshare', description: 'Application mobile de partage de trajet pour voyageurs en Asie.', tags: ['Flutter', 'Mobile', 'Travel'], imageUrl: '/rideshare_project_pic.png', link: 'https://www.my-rideshare.com/', category: 'Mobile' },
     { id: '3', title: 'VibeMobile', description: 'Plateforme IA pour transformer des idées en prototypes mobiles en 20min.', tags: ['AI', 'No-code', 'Prototyping'], imageUrl: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1000', category: 'AI' },
     { id: '4', title: 'Vocalia', description: 'Agent IA spécialisé dans la traduction vocale en temps réel via Bluetooth.', tags: ['AI Audio', 'Real-time', 'Translation'], imageUrl: 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?q=80&w=1000', category: 'AI' }
   ],
   en: [
     { id: '1', title: 'Nice-to-meet-u', description: 'Language exchange platform to practice with native speakers.', tags: ['React', 'WebRTC', 'Next.js'], imageUrl: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?q=80&w=1000', link: 'https://www.nice-to-meet-u.com/', category: 'Web' },
-    { id: '2', title: 'Rideshare', description: 'Mobile ridesharing app for travelers in Asia.', tags: ['Flutter', 'Mobile', 'Travel'], imageUrl: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?q=80&w=1000', link: 'https://www.my-rideshare.com/', category: 'Mobile' },
+    { id: '2', title: 'Rideshare', description: 'Mobile ridesharing app for travelers in Asia.', tags: ['Flutter', 'Mobile', 'Travel'], imageUrl: '/rideshare_project_pic.png', link: 'https://www.my-rideshare.com/', category: 'Mobile' },
     { id: '3', title: 'VibeMobile', description: 'AI platform to transform ideas into mobile prototypes in 20min.', tags: ['AI', 'No-code', 'Prototyping'], imageUrl: 'https://images.unsplash.com/photo-1551650975-87deedd944c3?q=80&w=1000', category: 'AI' },
     { id: '4', title: 'Vocalia', description: 'AI Agent specialized in real-time voice translation via Bluetooth.', tags: ['AI Audio', 'Real-time', 'Translation'], imageUrl: 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?q=80&w=1000', category: 'AI' }
   ]
